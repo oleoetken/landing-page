@@ -83,7 +83,7 @@ ul {
     padding: 8px 24px 8px 24px;
     background-color: #3882F6;
     text-align: center;
-    color: #E5E7EB;
+    color: #F9FAF8;
     border: none;
     border-radius: 8px;
 }
@@ -143,6 +143,63 @@ ul {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     text-align: right;
+}
+
+.white-box {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.alert-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
+    border-radius: 8px;
+    
+    
+}
+
+.left-alert {
+    display: flex;
+    margin-left: auto;
+}
+
+.sub-headline {
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    text-align: center;
+    font-weight: 900;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    margin: 0px;
+    padding: 8px 24px 8px 24px;
+}
+
+.footer {
+    justify-content: center;
+    color: #F9FAF8;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+.main-image {
+    width: 100%;
+    min-width: 250px;
 }
 
 
