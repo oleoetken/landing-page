@@ -122,6 +122,9 @@ ul {
     background-color: #E5E7EB;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fancy, 
@@ -200,6 +203,7 @@ ul {
 .main-image {
     width: 100%;
     min-width: 250px;
+    max-width: 450px;
 }
 
 .sign-up-button, 
@@ -207,6 +211,15 @@ ul {
     cursor: pointer;
     position: relative;
     z-index: 10;
+}
+
+.quote-block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
+
 }
 
 
