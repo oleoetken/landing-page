@@ -79,3 +79,33 @@ ul {
     border: none;
     border-radius: 8px;
 }
+
+.body-box {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+.headline {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 48px;
+}
+
+.image-box {
+    
+    max-width: 200px;
+}
+
+.image-style {
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
