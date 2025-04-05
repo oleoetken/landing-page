@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    padding: 0px;
+    margin: 0px;
     
 }
 
@@ -67,7 +69,13 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900px;
+    margin-right: 48px;
     
+}
+
+.right-box {
+    display: flex;
+    flex: 1;
 }
 
 .sign-up-button-big {
@@ -109,3 +117,32 @@ ul {
     border: 5px solid #3882F6;
     border-radius: 8px;
 }
+
+.text-box {
+    background-color: #E5E7EB;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.fancy, 
+.quote-author {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fancy {
+    font-family: "light italic";
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-align: right;
+}
+
+
