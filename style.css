@@ -202,4 +202,11 @@ ul {
     min-width: 250px;
 }
 
+.sign-up-button, 
+.sign-up-button-big {
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
 
